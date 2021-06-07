@@ -1,2 +1,45 @@
 # Python-Functions-Files-and-Dictionaries
-Python 3 Programming Specialization
+.readlines() turns a file object into a list of strings
+
+.read() turns a file object into continuous string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

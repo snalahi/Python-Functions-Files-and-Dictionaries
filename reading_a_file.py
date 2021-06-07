@@ -1,5 +1,5 @@
 fileref = open("olympics.txt", "r")
-## Mid it the file should be in th
+## Mind it the file should be in the same folder of the program execution.
 lines = fileref.readlines()
 print(len(lines))
 total_char = 0

@@ -8,3 +8,4 @@ for line in lines:
     print(line.strip())
 print(total_char)
 fileref.close()
+

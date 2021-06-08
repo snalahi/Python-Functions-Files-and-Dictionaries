@@ -11,6 +11,8 @@ When you open a file using `with` then you don't have to bother in closing it. T
 ` with open("test.txt") as f:   
     data = f.read()
  `
+ 
+ 
 
 
 

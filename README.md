@@ -11,7 +11,12 @@ When you open a file using `with` then you don't have to bother in closing it. T
 ` with open("test.txt") as f:   
     data = f.read()
  `
- 
+
+In order to create a dictionary, we use curly braces {}
+
+Dictionaries like strings, lists, and tuples are a collection of items. But unlike strings, lists or tuples, they're an unordered collection of items meaning that they don't have a first, second or third item, they're kind of a bag of key value pairs.
+
+
  
 
 

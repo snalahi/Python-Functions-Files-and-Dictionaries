@@ -16,8 +16,13 @@ In order to create a dictionary, we use curly braces {}
 
 Dictionaries like strings, lists, and tuples are a collection of items. But unlike strings, lists or tuples, they're an unordered collection of items meaning that they don't have a first, second or third item, they're kind of a bag of key value pairs.
 
+A dictionary is an unordered collection of key value pairs.
 
- 
+`len(dict)` returns the total number of key-value pairs in a dictionary.
+
+`in` only asks for a key in the dictionary.
+
+
 
 
 

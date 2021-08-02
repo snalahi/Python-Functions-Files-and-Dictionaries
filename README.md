@@ -22,6 +22,8 @@ A dictionary is an unordered collection of key value pairs.
 
 `in` only asks for a key in the dictionary.
 
+Dictionary Accumulation
+
 
 
 

@@ -24,7 +24,9 @@ A dictionary is an unordered collection of key value pairs.
 
 Dictionary Accumulation
 
+#### def hello(s,n): => 'def' implies that it is a function definition; 'hello' is the function name; 's,n' are the function parameters / parameter names / input parameters / formal parameters.
 
+#### hello('David',4) => 'hello()' is the function invocation; ''David',4' are the provided arguments or values (function arguments) / parameter values / actual parameters.
 
 
 

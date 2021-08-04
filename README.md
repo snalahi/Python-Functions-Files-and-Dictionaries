@@ -28,9 +28,15 @@ Dictionary Accumulation
 
 #### hello('David',4) => 'hello()' is the function invocation; ''David',4' are the provided arguments or values (function arguments) / parameter values / actual parameters.
 
+The scope of a variable is the set of statements where a variable name can be accessed. 
 
+#### As a problem-solving strategy, it's helpful to decompose, to find a function by referring to other functions that don't yet exist and then write those functions.
 
+#### Variables are local, but objects are not.
 
+#### List objects are always mutable in python.
+
+When a python function returns multiple values, it automatically transforms the values in a form of tuple. This phenomenon is called `Tuple Packing`.
 
 
 

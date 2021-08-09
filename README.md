@@ -38,6 +38,10 @@ The scope of a variable is the set of statements where a variable name can be ac
 
 When a python function returns multiple values, it automatically transforms the values in a form of tuple. This phenomenon is called `Tuple Packing`.
 
+Listener loop uses while statement.
+
+When we mention a data structure in the function parameter, then it will only take arguments of that same data structure. For instance, the following function will only take 'list' as its argument => `def stop_at_z(list):`
+
 
 
 

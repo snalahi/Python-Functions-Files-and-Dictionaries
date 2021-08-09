@@ -42,6 +42,15 @@ Listener loop uses while statement.
 
 When we mention a data structure in the function parameter, then it will only take arguments of that same data structure. For instance, the following function will only take 'list' as its argument => `def stop_at_z(list):`
 
+You can initiate some parameters as optional in the function call. Such as, `def func(a, L=[])`. L = [] is an optional parameter when the function is called. For instance, func(1), func(4) or func(3, ['s']) etc. Anything will work!!!
+
+Keyword arguments should always be placed after the positional arguments. Unless, it will show up an error.
+
+We can make a lambda expression an anonymous function which does not have a name. For instance, `lambda x,y: x + y` or with name such as
+`total = lambda x,y: x + y` where total is the function name.
+
+In lambda expression, the return is implicit.
+
 
 
 

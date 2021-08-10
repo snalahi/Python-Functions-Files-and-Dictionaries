@@ -58,8 +58,30 @@ In lambda expression, the return is implicit.
 
 #### sorted() function is the safest option to use. Because, it can be applied to any sequence (highly flexible), can be implemented with additional parameters, always returns value with a new sorted sequence.
 
+If you want to sort items in the descending order, then use the optional parameter `reverse=True` inside the sorted() function!!!
 
+#### The sorted() function has the following implimentations in it's full form: `sorted(sequence, reverse=boolean value, key=function can be applied to the sequence)`.
 
+#### `key` is a major aspect inside the sorted() function. We can apply distinctive functions on the designated sequence of items upon which the sorted() function is applied through the `key optional parameter`. Key is meant to be a property here upon which the sequence is sorted. Check the picture of an implementation in the repository.
+
+#### Mind it: the `key function` can be a named function or a lambda expression!!!
+
+Lambda expressions are expressions that produce anonymous functions. 
+
+If d is a dictionary then while iterating through the keys of that dictionary, we can use just d instead of d.keys() in the for loop. It's actually a shorthand!
+
+If you want to specify a tie-breaking property, have your key function return a tuple. Like key functions everywhere, they always take one item from the sequence as input, but now it's going to return a tuple, where the first element of the tuple is the primary property to sort by, the next element is the secondary property to sort by, and you could even have more elements in the tuple. We also saw that if you just want to reverse order for one of the properties but not the others, instead of using reverse equals true, you can make the key function return negative of all the numbers.
+
+For the implementation, check this out:
+https://www.coursera.org/learn/python-functions-files-dictionaries/lecture/kHMob/breaking-ties
+
+Here's a little way of the programmer advice on when to use a Lambda expression, and when to use a named function for key parameter when sorting. Basically, rule of thumb is if the lambda expression is short and simple, so that it's pretty easy to understand what it's doing, use the lambda expression, and as soon as it gets too complex, refer to a named function instead, and give it a good name that describes the property you're trying to sort by. 
+
+#### When to Use a Lambda Expression: https://www.coursera.org/learn/python-functions-files-dictionaries/lecture/m97K5/way-of-the-programmer-when-to-use-a-lambda-expression
+
+#### To get the last `n` items from a list use the `[-n]` syntax.
+
+#### When we introduce a `key` property to a sorted() function, the `key` implies to each element of that sequence. Mind it!!!
 
 
 

@@ -51,6 +51,15 @@ We can make a lambda expression an anonymous function which does not have a name
 
 In lambda expression, the return is implicit.
 
+#### There are three key differences between .sort() method and sorted() function:
+==> .sort() is a method called upon an object and sorted() is a function which takes an object as an argument
+==> .sort() does not return anything, it just sorts the original object; sorted() returns a new sorted object
+==> .sort() changes the original object, sorted() does not change the original object.
+
+#### sorted() function is the safest option to use. Because, it can be applied to any sequence (highly flexible), can be implemented with additional parameters, always returns value with a new sorted sequence.
+
+
+
 
 
 
